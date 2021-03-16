@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Abvito</title>
+{% endblock %}
+{% block header %}
+<div class="d-flex flex-row-revers">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link" href="#">Регистрация</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Вход</a>
+          </li>
+          <li class="nav-item button">
+              <a class="btn btn-outline-danger" href="#">Разместить объявление</a>
+          </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+      </header>
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <input class="form-control me-2" type="search" placeholder="Хочу обменять на" aria-label="Search">
+                      </div>
+                      <div class="col">
+                          <select class="form-select" aria-label="form-select">
+  <option selected>Выбери город</option>
+  <option value="1">Москва</option>
+  <option value="2">Санкт-Петербург</option>
+</select>
+                      </div>
+                      <div class="col">
+                          <button class="btn btn-outline-danger" type="submit">Искать</button>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </header>
+{% endblock %}
+{% block body %}
+      <h3>Последние публикации</h3>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col">
+                  <div class="card border-danger mb-2" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Название товара</h5>
+    <p class="card-text">Описание товара</p>
+    <p class="card-text"><small class="text-muted">Адрес продавца</small></p>
+    <a href="#" class="btn btn-danger">Посмотреть обмен</a>
+  </div>
+</div>
+              </div>
+              <div class="col">
+                  <div class="card border-danger mb-2" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Название товара</h5>
+    <p class="card-text">Описание товара</p>
+    <p class="card-text"><small class="text-muted">Адрес продавца</small></p>
+    <a href="#" class="btn btn-danger">Посмотреть обмен</a>
+  </div>
+
+
+</div>
+              </div>
+              <div class="col">
+                  <div class="card border-danger mb-2" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Название товара</h5>
+    <p class="card-text">Описание товара</p>
+    <p class="card-text"><small class="text-muted">Адрес продавца</small></p>
+    <a href="#" class="btn btn-danger">Посмотреть обмен</a>
+  </div>
+</div>
+              </div>
+              <div class="col">
+                  <div class="card border-danger mb-2" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Название товара</h5>
+    <p class="card-text">Описание товара</p>
+    <p class="card-text"><small class="text-muted">Адрес продавца</small></p>
+    <a href="#" class="btn btn-danger">Посмотреть обмен</a>
+  </div>
+</div>
+              </div>
+          </div>
+      </div>
+
+
+  </body>
+
+{% endblock %}
+
+
