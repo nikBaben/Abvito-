@@ -6,7 +6,7 @@ from models import db, User
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///pops.sqlite"
 db.init_app(app)
-db.create_all()
+
 
 @app.route('/')
 def index():
